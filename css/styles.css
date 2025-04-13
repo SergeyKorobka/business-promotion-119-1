@@ -1,0 +1,163 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: "Montserrat", sans-serif; */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #22343d;
+}
+
+/*#region Reset*/
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/*#endregion Reset*/
+
+/*#region Common*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.main-btn {
+  display: block;
+  padding: 14px 42px;
+  min-width: 105px;
+  border-radius: 4px;
+
+  font-weight: 700;
+  color: #fff;
+  background-color: #02897a;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #006e61;
+}
+
+/*#endregion Common*/
+
+/*#region Heder*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 74px;
+  flex-grow: 1;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-nav-link {
+  display: block;
+  padding: 26px 0;
+  line-height: 1.75;
+}
+
+.header-nav-link.current {
+  font-weight: 600;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #02897a;
+}
+
+.header-auth-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-auth-link {
+  padding: 9px 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.auth-link-light {
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
+  color: #173a56;
+}
+
+.auth-link-light:hover,
+.auth-link-light:focus {
+  color: #fff;
+}
+
+/*#endregion Heder*/
